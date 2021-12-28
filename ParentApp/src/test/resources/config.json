@@ -1,0 +1,51 @@
+{
+  "sourceName": "3G_ERCSN",
+  "inputFileType" : "csv",
+  "dataFileDelimiter" : "|",
+  "inputSourcePath": "D:/RecentScalaProjects/ParentApp/data/raw_zone/3G_ERCSN/",
+  "rejectedRecordsPath": "D:/RecentScalaProjects/ParentApp/data/processed/3G_ERCSN/",
+  "rejectOutputType": "csv",
+  "rejectTables" : ["single_kpi"],
+  "saveMode": "Append",
+  "processingSuffix": "*_processing",
+  "outputFormat" : "orc",
+  "header": "false",
+  "partitionColumns" : "event_date , batch_id",
+  "inputSchema": [
+      {
+        "columnName": "IMSI",
+        "columnType": "StringType",
+        "isNullable": false
+      },
+      {
+        "columnName": "IMEI",
+        "columnType": "StringType",
+        "isNullable": true
+      },
+      {
+        "columnName": "CELL",
+        "columnType": "IntegerType",
+        "isNullable": false
+      },
+      {
+        "columnName": "LAC",
+        "columnType": "IntegerType",
+        "isNullable": false
+      },
+      {
+        "columnName": "EVENTTYPE",
+        "columnType": "StringType",
+        "isNullable": true
+      },
+      {
+        "columnName": "EVENTTS",
+        "columnType": "TimestampType",
+        "isNullable": false
+      },
+      {
+        "columnName": "file_name",
+        "columnType": "StringType",
+        "isNullable": false
+      }
+    ]
+  }

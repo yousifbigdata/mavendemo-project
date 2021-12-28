@@ -1,0 +1,416 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+wordCount
+132
+144
+7
+com.yousif.scala.First.isEmpty
+Apply
+false
+0
+false
+First.this.isEmpty(emp)
+
+2
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+wordCount
+148
+149
+7
+<nosymbol>
+Literal
+false
+0
+false
+0
+
+3
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+wordCount
+175
+181
+8
+<nosymbol>
+Literal
+false
+0
+false
+"\\W+"
+
+4
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+wordCount
+167
+189
+8
+scala.Array.length
+Select
+false
+0
+false
+x.split("\\W+").length
+
+5
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+isEmpty
+241
+245
+12
+<nosymbol>
+Literal
+false
+0
+false
+null
+
+6
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+isEmpty
+249
+265
+12
+java.lang.String.isEmpty
+Apply
+false
+0
+false
+str.trim().isEmpty()
+
+7
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+isEmpty
+234
+265
+12
+scala.Boolean.||
+Apply
+false
+0
+false
+str.==(null).||(str.trim().isEmpty())
+
+8
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala
+com.yousif.scala
+First
+Object
+com.yousif.scala.First
+isEmpty
+269
+297
+13
+scala.Predef.println
+Apply
+false
+0
+false
+scala.this.Predef.println("Hello from my App")
+
+9
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala
+com.yousif.scala
+JsonExtractor
+Object
+com.yousif.scala.JsonExtractor
+parseJsonObj
+312
+326
+10
+org.json4s.DefaultFormats
+Select
+false
+0
+false
+org.json4s.DefaultFormats
+
+10
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala
+com.yousif.scala
+JsonExtractor
+Object
+com.yousif.scala.JsonExtractor
+parseJsonObj
+344
+372
+12
+org.json4s.ExtractableJsonAstNode.extract
+ApplyToImplicitArgs
+false
+0
+false
+org.this.json4s.`package`.jvalue2extractable(org.json4s.jackson.JsonMethods.parse(org.this.json4s.`package`.string2JsonInput(jsonString), org.json4s.jackson.JsonMethods.parse$default$2, org.json4s.jackson.JsonMethods.parse$default$3)).extract[T](formats, m)
+
+11
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala
+com.yousif.scala
+JsonExtractor
+Object
+com.yousif.scala.JsonExtractor
+parseJsonObj
+332
+379
+11
+scala.util.Try.apply
+Apply
+false
+0
+false
+scala.util.Try.apply[T](org.this.json4s.`package`.jvalue2extractable(org.json4s.jackson.JsonMethods.parse(org.this.json4s.`package`.string2JsonInput(jsonString), org.json4s.jackson.JsonMethods.parse$default$2, org.json4s.jackson.JsonMethods.parse$default$3)).extract[T](formats, m))
+
+12
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala
+com.yousif.scala
+JsonExtractor
+Object
+com.yousif.scala.JsonExtractor
+getJsonObj
+461
+485
+16
+com.yousif.scala.JsonExtractor.parseJsonObj
+ApplyToImplicitArgs
+false
+0
+false
+JsonExtractor.this.parseJsonObj[T](jsonString)(m)
+
+13
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala
+com.yousif.scala
+JsonExtractor
+Object
+com.yousif.scala.JsonExtractor
+getJsonObj
+566
+605
+18
+<nosymbol>
+Throw
+false
+0
+false
+throw new scala.`package`.IllegalArgumentException(exc)
+
+14
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+<none>
+173
+189
+7
+java.lang.Class.getName
+Apply
+false
+0
+false
+SparkCommon.this.getClass().getName()
+
+15
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+<none>
+149
+190
+7
+org.slf4j.LoggerFactory.getLogger
+Apply
+false
+0
+false
+org.slf4j.LoggerFactory.getLogger(SparkCommon.this.getClass().getName())
+
+16
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+270
+313
+11
+org.slf4j.Logger.warn
+Apply
+false
+0
+false
+SparkCommon.this.logger.warn("Spark Create Session Started")
+
+17
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+335
+482
+16
+org.apache.spark.sql.SparkSession.Builder.getOrCreate
+Apply
+false
+0
+false
+org.apache.spark.sql.SparkSession.builder().appName("SparkIncLoad").master("local[*]").enableHiveSupport().getOrCreate()
+
+18
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+492
+535
+17
+org.slf4j.Logger.warn
+Apply
+false
+0
+false
+SparkCommon.this.logger.warn("Spark Create Session Started")
+
+19
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+545
+556
+18
+scala.Some.apply
+Apply
+false
+0
+false
+scala.Some.apply[org.apache.spark.sql.SparkSession](spark)
+
+20
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+270
+556
+9
+<nosymbol>
+Block
+true
+0
+false
+{
+  SparkCommon.this.logger.warn("Spark Create Session Started");
+  val spark: org.apache.spark.sql.SparkSession = org.apache.spark.sql.SparkSession.builder().appName("SparkIncLoad").master("local[*]").enableHiveSupport().getOrCreate();
+  SparkCommon.this.logger.warn("Spark Create Session Started");
+  scala.Some.apply[org.apache.spark.sql.SparkSession](spark)
+}
+
+21
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+617
+678
+23
+org.slf4j.Logger.error
+Apply
+false
+0
+false
+SparkCommon.this.logger.error("An error occured while creating Spark Session")
+
+22
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+688
+702
+24
+java.lang.System.exit
+Apply
+false
+0
+false
+java.this.lang.System.exit(1)
+
+23
+D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala
+com.yousif.scala
+SparkCommon
+Object
+com.yousif.scala.SparkCommon
+createSparkSession
+712
+716
+25
+scala.None
+Select
+false
+0
+false
+scala.None
+

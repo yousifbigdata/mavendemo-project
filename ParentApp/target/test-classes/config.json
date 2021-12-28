@@ -1,0 +1,62 @@
+{
+  "sourceName": "3G_ERCSN",
+  "rejection": {
+    "rejectedRecordsPath": "D:/RecentScalaProjects/ParentApp/data/processed/3G_ERCSN/",
+    "rejectOutputType": "csv"
+  },
+  "inputSource": {
+    "inputFilesType":"csv",
+    "dataFileDelimiter": "|",
+    "totalInputFileColumns": "5",
+    "inputSourcePath": "D:/RecentScalaProjects/ParentApp/data/raw_zone/3G_ERCSN/",
+    "processingSuffix": "*_processing",
+    "header": "false",
+    "inputSchema": [
+      {
+        "columnName": "imsi",
+        "columnType": "StringType",
+        "isNullable": false
+      },
+      {
+        "columnName": "imei",
+        "columnType": "StringType",
+        "isNullable": true
+      },
+      {
+        "columnName": "cell",
+        "columnType": "IntegerType",
+        "isNullable": false
+      },
+      {
+        "columnName": "lac",
+        "columnType": "IntegerType",
+        "isNullable": false
+      },
+      {
+        "columnName": "eventType",
+        "columnType": "StringType",
+        "isNullable": true
+      },
+      {
+        "columnName": "eventTs",
+        "columnType": "TimestampType",
+        "isNullable": false
+      },
+      {
+        "columnName": "file_name",
+        "columnType": "StringType",
+        "isNullable": false
+      }
+    ]
+  },
+  "targetSource": [
+    {
+      "targetTable": "Singl_KPI",
+      "targetSchema": "mod",
+      "partitionColumns": "event_date,batch_id",
+      "outputFormat": "orc",
+      "saveMode": "Append"
+    }
+  ]
+
+}

@@ -1,0 +1,123 @@
+<scoverage 
+statement-count="23" statements-invoked="11" statement-rate="47.83" branch-rate="0.00" version="1.0" timestamp="1627903567334">
+    <packages>
+        <package name="com.yousif.scala" statement-count="23" statements-invoked="11" statement-rate="47.83">
+            <classes>
+                <class 
+                name="com.yousif.scala.SparkCommon" filename="com\yousif\scala\SparkCommon.scala" statement-count="10" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.yousif.scala/SparkCommon/createSparkSession" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="712" end="716" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="335" end="482" line="16" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="270" end="556" line="9" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="688" end="702" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="270" end="313" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="545" end="556" line="18" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="492" end="535" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="createSparkSession" start="617" end="678" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.yousif.scala/SparkCommon/&lt;none&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="&lt;none&gt;" start="173" end="189" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="SparkCommon" class-type="Object" full-class-name="com.yousif.scala.SparkCommon" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\SparkCommon.scala" method="&lt;none&gt;" start="149" end="190" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.yousif.scala.JsonExtractor" filename="com\yousif\scala\JsonExtractor.scala" statement-count="5" statements-invoked="4" statement-rate="80.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.yousif.scala/JsonExtractor/getJsonObj" statement-count="2" statements-invoked="1" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="JsonExtractor" class-type="Object" full-class-name="com.yousif.scala.JsonExtractor" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala" method="getJsonObj" start="566" end="605" line="18" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="JsonExtractor" class-type="Object" full-class-name="com.yousif.scala.JsonExtractor" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala" method="getJsonObj" start="461" end="485" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.yousif.scala/JsonExtractor/parseJsonObj" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="JsonExtractor" class-type="Object" full-class-name="com.yousif.scala.JsonExtractor" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala" method="parseJsonObj" start="332" end="379" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="JsonExtractor" class-type="Object" full-class-name="com.yousif.scala.JsonExtractor" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala" method="parseJsonObj" start="344" end="372" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="JsonExtractor" class-type="Object" full-class-name="com.yousif.scala.JsonExtractor" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\JsonExtractor.scala" method="parseJsonObj" start="312" end="326" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.yousif.scala.First" filename="com\yousif\scala\First.scala" statement-count="8" statements-invoked="7" statement-rate="87.50" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.yousif.scala/First/isEmpty" statement-count="4" statements-invoked="3" statement-rate="75.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="isEmpty" start="269" end="297" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="isEmpty" start="241" end="245" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="isEmpty" start="234" end="265" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="isEmpty" start="249" end="265" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.yousif.scala/First/wordCount" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="wordCount" start="148" end="149" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="wordCount" start="167" end="189" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="wordCount" start="132" end="144" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.yousif.scala" class="First" class-type="Object" full-class-name="com.yousif.scala.First" source="D:\RecentScalaProjects\ParentApp\src\main\scala\com\yousif\scala\First.scala" method="wordCount" start="175" end="181" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

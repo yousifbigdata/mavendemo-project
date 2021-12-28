@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.48" lines-valid="23" lines-covered="11" branches-valid="1" branches-covered="0" branch-rate="0.00" complexity="0" version="1.0" timestamp="1627903567182">
+    <sources>
+        <source>--source</source>
+        <source>D:/RecentScalaProjects/ParentApp/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="com.yousif.scala" line-rate="0.48" branch-rate="0.00" complexity="0">
+            <classes>
+                <class 
+                name="com.yousif.scala.SparkCommon" filename="com/yousif/scala/SparkCommon.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.yousif.scala/SparkCommon/createSparkSession" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="25" hits="0" branch="false"/>
+                                <line number="16" hits="0" branch="false"/>
+                                <line number="9" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="18" hits="0" branch="false"/>
+                                <line number="17" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="com.yousif.scala/SparkCommon/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="25" hits="0" branch="false"/>
+                        <line number="16" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="18" hits="0" branch="false"/>
+                        <line number="17" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.yousif.scala.JsonExtractor" filename="com/yousif/scala/JsonExtractor.scala" line-rate="0.80" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.yousif.scala/JsonExtractor/getJsonObj" signature="()V" line-rate="0.50" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="18" hits="0" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="com.yousif.scala/JsonExtractor/parseJsonObj" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="18" hits="0" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.yousif.scala.First" filename="com/yousif/scala/First.scala" line-rate="0.88" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.yousif.scala/First/isEmpty" signature="()V" line-rate="0.75" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="13" hits="0" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.yousif.scala/First/wordCount" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="13" hits="0" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
